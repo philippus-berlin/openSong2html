@@ -1,0 +1,38 @@
+body {
+   font-family: Helvetica,sans-serif;
+   background-color: #ffffff;
+   color: #000000;
+   font-size: 14px;
+   display: block;
+   margin-bottom: 4px;
+ }
+
+ .songtitle {
+   font-size: 18px;
+ }
+
+ .author {
+   font-size: 16px;
+ }
+
+ .author::before {
+     content: "Author: ";
+ }
+
+ .copyright {
+   font-size: 16px;
+ }
+
+ .copyright::before {
+     content: "Copyright: ";
+ }
+
+ .ccli::before {
+     content: "CCLI-Licence: ";
+ }
+
+ .lyrics {
+   font-family: Courier;
+   white-space: pre;
+   font-size: 15px;
+ }
