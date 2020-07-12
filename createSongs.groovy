@@ -82,6 +82,7 @@ File output = new File("index.html")
 output.createNewFile()
 output.write("<html>\n" +
         "<head>\n" +
+        "<meta charset=\"utf-8\"/>\n" +
         "<title>Content</title>\n" +
         "<link rel=\"stylesheet\" type=\"text/css\" href=\"openSong.css\">\n" +
         "</head>\n" +
